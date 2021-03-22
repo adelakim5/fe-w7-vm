@@ -31,7 +31,7 @@ $highlightB: pink;
 #app {
   display: grid;
   grid-template-columns: 3fr 2fr 1fr;
-  width: 80%;
+  width: 95%;
   margin: 3rem auto;
 }
 
@@ -44,8 +44,8 @@ section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 3rem 1rem;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .item {
@@ -54,7 +54,7 @@ section {
   display: grid;
   border: 1px solid #333;
   border-radius: 0.2rem;
-  padding: 1rem;
+  padding: 0.5rem;
   height: 5rem;
   align-items: center;
   justify-content: center;
@@ -80,6 +80,7 @@ section {
   }
   &__name {
     line-height: 1.5rem;
+    font-size: 0.95rem;
   }
   &__price {
     position: absolute;
@@ -90,7 +91,7 @@ section {
 }
 
 .conductionView {
-  padding: 1.5rem 1rem;
+  padding: 1rem;
   & > * {
     display: block;
     border: 1px solid #333;
@@ -136,7 +137,7 @@ section {
       cursor: pointer;
       border: 1px solid #333;
       border-radius: 0.3rem;
-      padding: 1rem;
+      padding: 1rem 0;
       transition: all 0.2s ease-in-out;
       &:hover {
         border-color: $highlightB;
