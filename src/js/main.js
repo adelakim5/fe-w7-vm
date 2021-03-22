@@ -1,4 +1,5 @@
 import "../style/style.scss";
+import implement from './implement';
 
 const main = document.createElement("div");
 
