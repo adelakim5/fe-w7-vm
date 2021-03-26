@@ -16,6 +16,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[hash].js",
     publicPath: "http://localhost:9000",
+    clean: {
+      keep: /\.git/,
+    },
   },
   module: {
     // 번들하고 싶은 파일인데 웹팩이 못알아듣는 애들을 위해 ex. sass
