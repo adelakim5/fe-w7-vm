@@ -1,7 +1,7 @@
 # fe-w7-vm
 
 # 팀원
-[Adela](https://github.com/adelakim5)
+[Adela](https://github.com/adelakim5)  
 [json](https://github.com/kowoohyuk)
 
 # 데모 페이지
